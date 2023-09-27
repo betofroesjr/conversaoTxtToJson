@@ -15,4 +15,4 @@ Acessar a pasta target e executar o comando
 - Output pasta onde salvar os arquivos
 
 # Recomendações
-Assim que programa for executado ele apagara a os arquivos da pasta input logo faça um backup dos mesmo antes de colocar na pasta
+Assim que programa for executado ele apagara os arquivos da pasta input logo faça um backup dos mesmo antes de colocar na pasta
