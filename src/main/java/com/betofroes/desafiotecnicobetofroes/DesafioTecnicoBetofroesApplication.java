@@ -20,8 +20,7 @@ public class DesafioTecnicoBetofroesApplication {
 
 	public static void main(String[] args) {
 
-		logger.info("Starting application...");
-		System.out.println("Starting application...");
+		logger.info("Starting application...");		
 
 		Properties prop = new Properties();
 		try {
