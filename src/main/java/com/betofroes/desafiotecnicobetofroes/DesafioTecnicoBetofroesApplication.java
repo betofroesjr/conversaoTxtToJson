@@ -58,8 +58,7 @@ public class DesafioTecnicoBetofroesApplication {
 			ExecutionService.getInstance(pathInput, pathOutput, new TxtProcessor(config), new JsonProcessor()).execution();
 
 		} catch (ExecutionServiceException | IOException e){
-			logger.severe("Error: " + e.getMessage());
-			System.out.println("Error: " + e.getMessage());
+			logger.severe("Error: " + e.getMessage());			
 		}
     }
 }
