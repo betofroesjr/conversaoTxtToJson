@@ -18,7 +18,7 @@ class JsonProcessorTest {
         // given
         JsonProcessor jsonProcessor = new JsonProcessor();
 
-        String values = "[{\"id_usuário\":\"0000000070\",\"valor_do_produto\":\"1836.74\",\"nome\":\"Palmer Prosacco\",\"id_pedido\":\"0000000753\",\"id_produto\":\"0000000003\",\"data_compra\":\"20210308\"}]";
+        String values = "[{\"id_usuario\":\"0000000070\",\"valor_do_produto\":\"1836.74\",\"nome\":\"Palmer Prosacco\",\"id_pedido\":\"0000000753\",\"id_produto\":\"0000000003\",\"data_compra\":\"20210308\"}]";
         // when
         String result = jsonProcessor.processFile(values);
 
@@ -42,10 +42,10 @@ class JsonProcessorTest {
         // given
         JsonProcessor jsonProcessor = new JsonProcessor();
 
-        String values = "[{\"id_usuário\":\"0000000070\",\"valor_do_produto\":\"1836.74\",\"nome\":\"Palmer Prosacco\",\"id_pedido\":\"0000000753\",\"id_produto\":\"0000000003\",\"data_compra\":\"20210308\"},\n" +
-                " {\"id_usuário\":\"0000000070\",\"valor_do_produto\":\"1578.57\",\"nome\":\"Palmer Prosacco\",\"id_pedido\":\"0000000753\",\"id_produto\":\"0000000003\",\"data_compra\":\"20210308\"},\n" +
-                " {\"id_usuário\":\"0000000070\",\"valor_do_produto\":\"942.54\",\"nome\":\"Palmer Prosacco\",\"id_pedido\":\"0000000751\",\"id_produto\":\"0000000005\",\"data_compra\":\"20210307\"},\n" +
-                " {\"id_usuário\":\"0000000070\",\"valor_do_produto\":\"1051.17\",\"nome\":\"Palmer Prosacco\",\"id_pedido\":\"0000000751\",\"id_produto\":\"0000000006\",\"data_compra\":\"20210307\"}]";
+        String values = "[{\"id_usuario\":\"0000000070\",\"valor_do_produto\":\"1836.74\",\"nome\":\"Palmer Prosacco\",\"id_pedido\":\"0000000753\",\"id_produto\":\"0000000003\",\"data_compra\":\"20210308\"},\n" +
+                " {\"id_usuario\":\"0000000070\",\"valor_do_produto\":\"1578.57\",\"nome\":\"Palmer Prosacco\",\"id_pedido\":\"0000000753\",\"id_produto\":\"0000000003\",\"data_compra\":\"20210308\"},\n" +
+                " {\"id_usuario\":\"0000000070\",\"valor_do_produto\":\"942.54\",\"nome\":\"Palmer Prosacco\",\"id_pedido\":\"0000000751\",\"id_produto\":\"0000000005\",\"data_compra\":\"20210307\"},\n" +
+                " {\"id_usuario\":\"0000000070\",\"valor_do_produto\":\"1051.17\",\"nome\":\"Palmer Prosacco\",\"id_pedido\":\"0000000751\",\"id_produto\":\"0000000006\",\"data_compra\":\"20210307\"}]";
         // when
         String result = jsonProcessor.processFile(values);
 

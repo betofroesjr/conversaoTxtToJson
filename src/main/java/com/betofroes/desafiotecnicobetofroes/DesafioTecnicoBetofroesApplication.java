@@ -20,7 +20,7 @@ public class DesafioTecnicoBetofroesApplication {
 
 	public static void main(String[] args) {
 
-		logger.info("Starting application...");
+		logger.info("Starting application...");		
 
 		Properties prop = new Properties();
 		try {
@@ -58,7 +58,7 @@ public class DesafioTecnicoBetofroesApplication {
 			ExecutionService.getInstance(pathInput, pathOutput, new TxtProcessor(config), new JsonProcessor()).execution();
 
 		} catch (ExecutionServiceException | IOException e){
-			logger.severe("Error: " + e.getMessage());
+			logger.severe("Error: " + e.getMessage());			
 		}
     }
 }
