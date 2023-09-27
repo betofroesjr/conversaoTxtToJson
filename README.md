@@ -19,9 +19,9 @@ Assim que programa for executado ele apagara os arquivos da pasta input logo fa�
 
 # Outras Configurações por parametro
 
-input=sua_pasta_entrada - default: C:\\input
-output=sua_pasta_saída  - default: C:\\output\\data_output
-properties_txt=arquivo_propriedades_arquivo_entrada_txt
+- input=sua_pasta_entrada  default: C:\\input
+- output=sua_pasta_saída   default: C:\\output\\data_output
+- properties_txt=arquivo_propriedades_arquivo_entrada_txt
 
 # Exemplo de arquivo de propriedades do arquivo txt
 
