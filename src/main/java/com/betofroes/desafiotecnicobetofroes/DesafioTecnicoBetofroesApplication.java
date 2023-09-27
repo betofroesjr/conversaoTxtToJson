@@ -21,6 +21,7 @@ public class DesafioTecnicoBetofroesApplication {
 	public static void main(String[] args) {
 
 		logger.info("Starting application...");
+		System.out.println("Starting application...");
 
 		Properties prop = new Properties();
 		try {
@@ -59,6 +60,7 @@ public class DesafioTecnicoBetofroesApplication {
 
 		} catch (ExecutionServiceException | IOException e){
 			logger.severe("Error: " + e.getMessage());
+			System.out.println("Error: " + e.getMessage());
 		}
     }
 }

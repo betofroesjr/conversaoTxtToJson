@@ -56,7 +56,7 @@ class ExecutionServiceTest {
         Files.write(inputFile.toPath(), Arrays.asList("0000000070                              Palmer Prosacco00000007530000000003     1836.7420210308"));
 
         List<TxtDto> config = List.of(
-                new TxtDto(1, "id_usuário", 10),
+                new TxtDto(1, "id_usuario", 10),
                 new TxtDto(2, "nome", 45),
                 new TxtDto(3, "id_pedido", 10),
                 new TxtDto(4, "id_produto", 10),

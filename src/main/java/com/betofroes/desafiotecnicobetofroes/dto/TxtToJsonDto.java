@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class TxtToJsonDto {
 
-    @JsonProperty(value = "id_usuário")
+    @JsonProperty(value = "id_usuario")
     private Integer id;
 
     @JsonProperty(value = "nome")
